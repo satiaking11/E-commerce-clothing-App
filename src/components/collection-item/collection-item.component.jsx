@@ -7,7 +7,7 @@ const CollectionItem = ({id, name, price, imageUrl}) => (
         <div
             className='image'
             style={{
-                backgroundImage: `url('${require('../../images/shop-img/'+imageUrl).default}')`
+                backgroundImage: `url('${require('../../assets/images/shop-img/'+imageUrl).default}')`
             }}
         />
         <div className='collection-footer'>
